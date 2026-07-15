@@ -121,3 +121,79 @@ nav{
 .nav-links a:hover{
     color:#D87CA0;
 }
+/* Mobile (≤768px) */
+
+header {
+  padding: 10px 16px;
+  min-height: 70px;
+}
+
+.logo {
+  width: 42px;
+  height: 42px;
+}
+
+.site-title {
+  font-size: 1.4rem;
+  line-height: 1.1;
+}
+
+nav a {
+  font-size: 0.9rem;
+  padding: 6px 8px;
+}
+
+.hero {
+  padding: 24px 18px;
+}
+
+.hero img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.hero h1 {
+  font-size: 2rem;
+}
+
+.hero p {
+  font-size: 1rem;
+}
+
+.shop-button {
+  width: 100%;
+  max-width: 280px;
+  padding: 14px;
+  font-size: 1rem;
+}
+
+.category-card {
+  padding: 18px;
+  min-height: 90px;
+  margin: 14px 0;
+  border-radius: 22px;
+}
+
+.category-card h2 {
+  font-size: 1.6rem;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 14px;
+}
+
+.product-card h3 {
+  font-size: 0.9rem;
+}
+
+footer {
+  padding: 30px 20px;
+  font-size: 0.9rem;
+}
