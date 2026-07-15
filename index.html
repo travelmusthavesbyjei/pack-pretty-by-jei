@@ -1,95 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Pack Pretty by Jei</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pack Pretty by Jei</title>
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 
-<link href="https://fonts.googleapis.com/css2?family=Parisienne&family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
-
-<style>
-
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-}
-
-body{
-font-family:Poppins,sans-serif;
-background:#FDF8F6;
-color:#5B4747;
-}
-
-.hero{
-min-height:100vh;
-display:flex;
-flex-direction:column;
-justify-content:center;
-align-items:center;
-text-align:center;
-padding:30px;
-background:linear-gradient(rgba(255,248,246,.75),rgba(255,248,246,.75)),
-url("https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=1200&q=80");
-background-size:cover;
-background-position:center;
-}
-
-.logo{
-font-family:Parisienne;
-font-size:56px;
-color:#B06C86;
-margin-bottom:15px;
-}
-
-h2{
-font-family:"Playfair Display",serif;
-font-size:34px;
-margin-bottom:15px;
-}
-
-p{
-font-size:18px;
-line-height:1.8;
-max-width:420px;
-}
-
-.button{
-margin-top:30px;
-display:inline-block;
-padding:15px 35px;
-background:#DFA7B8;
-color:white;
-text-decoration:none;
-border-radius:50px;
-font-weight:bold;
-}
-
-</style>
-
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<section class="hero">
+<header class="hero">
+    <div class="hero-content">
 
-<div class="logo">🎀 Pack Pretty by Jei</div>
+        <img src="logo.png" alt="Pack Pretty by Jei Logo" class="logo">
 
-<h2>Curated Travel Finds</h2>
+        <h1>Pack Pretty</h1>
+        <h2>by Jei</h2>
 
-<p>
-Travel prettier.<br>
-Pack smarter.
-</p>
+        <p class="tagline">
+            Travel Smarter. Pack Prettier.
+        </p>
 
-<a class="button" href="#shop">
-♡ Shop My Favorites
-</a>
+        <a href="#editors" class="button">
+            Shop Editor's Picks
+        </a>
 
+    </div>
+</header>
+
+<section id="editors" class="section">
+    <h2>✨ Editor's Picks</h2>
+    <p>Beautiful travel favorites you'll love.</p>
 </section>
+
+<section class="section">
+    <h2>🧳 Carry-On Essentials</h2>
+</section>
+
+<section class="section">
+    <h2>☁️ In-Flight Comfort</h2>
+</section>
+
+<section class="section">
+    <h2>💻 Travel Tech</h2>
+</section>
+
+<section class="section">
+    <h2>💄 Beauty on the Go</h2>
+</section>
+
+<section class="section">
+    <h2>🌴 Vacation Essentials</h2>
+</section>
+
+<section class="section">
+    <h2>💕 Travel Favorites Under $25</h2>
+</section>
+
+<footer>
+    <p>Made with 🤍 by Jei</p>
+    <small>As an Amazon Associate, I earn from qualifying purchases.</small>
+</footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
